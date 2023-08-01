@@ -18,8 +18,6 @@ class Funcionario:
         if (mes not in self.horas) or (mes not in self.salario_hora):
             print('Mês Inexistente')
         else:
-            print(self.horas[mes])
-            print(self.salario_hora[mes])
             salario = float(self.horas[mes]) * float(self.salario_hora[mes])
             return salario
 

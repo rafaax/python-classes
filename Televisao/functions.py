@@ -1,4 +1,6 @@
 from classes import *
+
+
 def verificaCanal(tv):
     lista = ', ' . join(tv.lista_canais)
     print('Os canais da lista são ' + lista + ', e o canal que estamos sintonizando é: '+ tv.canal_atual + '!')
